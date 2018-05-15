@@ -1,0 +1,12 @@
+﻿<Window x:Class="AlborzAutomobile.Sales_09_Sodor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Leasing_05_Sodor" Height="144" Width="251" WindowStartupLocation="CenterScreen" FlowDirection="RightToLeft" xmlns:my="clr-namespace:Arash.PersianDateControls;assembly=PersianDateControls" Loaded="Window_Loaded" Background="SkyBlue" Icon="/AlborzAutomobile;component/Project1.ico">
+    <Grid>
+        <my:PersianDatePicker Height="29" HorizontalAlignment="Left" Margin="97,12,0,0" Name="persianDatePicker1" VerticalAlignment="Top" Width="120" Foreground="#FF8142A2" FontFamily="Tahoma" FontSize="11" />
+        <Label Content="تاریخ صدور" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label3" VerticalAlignment="Top" Width="79" Foreground="#FF8142A2" />
+        <Button Content="ثبت" Height="30" HorizontalAlignment="Left" Margin="152,57,0,0" Name="button1" VerticalAlignment="Top" Width="65" Click="button1_Click" />
+        <Button Content="خروج" Height="30" HorizontalAlignment="Left" Margin="12,57,0,0" Name="button2" VerticalAlignment="Top" Width="60" />
+        <Button Content="چاپ" Height="30" HorizontalAlignment="Left" Margin="78,57,0,0" Name="button3" VerticalAlignment="Top" Width="68" Click="button3_Click" />
+    </Grid>
+</Window>

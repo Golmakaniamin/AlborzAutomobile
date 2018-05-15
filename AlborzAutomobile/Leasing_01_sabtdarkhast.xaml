@@ -1,0 +1,25 @@
+﻿<Window x:Class="AlborzAutomobile.Leasing_01_sabtdarkhast"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Leasing_01_sabtdarkhast" Height="338" Width="438" FlowDirection="RightToLeft" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" Background="SkyBlue" WindowStyle="SingleBorderWindow" Icon="/AlborzAutomobile;component/Project1.ico">
+    <Grid Background="{x:Null}">
+        <Label Content="مبلغ قرارداد" FontFamily="Tahoma" FontSize="11" Margin="25,173,0,0" Name="label1" HorizontalAlignment="Left" Width="110" Height="29" VerticalAlignment="Top" Foreground="#FF8142A2" />
+        <TextBox FontFamily="Tahoma" Margin="141,173,0,0" Name="textBox1" TextAlignment="Left" HorizontalAlignment="Left" Width="209" Height="29" VerticalAlignment="Top" TabIndex="5" KeyDown="textBox1_KeyDown" />
+        <Label Content="شرکت سازنده" FontFamily="Tahoma" FontSize="11" Margin="25,103,0,0" Name="label11" HorizontalAlignment="Left" Width="110" Height="29" VerticalAlignment="Top" Foreground="#FF8142A2" />
+        <Label Content="محصول" FontFamily="Tahoma" FontSize="11" Margin="25,138,0,0" Name="label12" HorizontalAlignment="Left" Width="110" Height="29" VerticalAlignment="Top" Foreground="#FF8142A2" />
+        <TextBox FontFamily="Tahoma" Margin="141,138,0,0" Name="textBox21" TextAlignment="Left" TextChanged="textBox21_TextChanged" Height="29" VerticalAlignment="Top" HorizontalAlignment="Left" Width="41" TabIndex="3" KeyDown="textBox21_KeyDown" />
+        <ComboBox Margin="188,103,0,0" Name="comboBox1" ItemsSource="{Binding}" DropDownClosed="comboBox1_DropDownClosed" HorizontalAlignment="Left" Width="162" Height="29" VerticalAlignment="Top" FontFamily="Tahoma" TabIndex="2" KeyDown="comboBox1_KeyDown" />
+        <ComboBox Margin="188,138,0,0" Name="comboBox2" ItemsSource="{Binding}" DropDownClosed="comboBox2_DropDownClosed" Height="29" VerticalAlignment="Top" FontFamily="Tahoma" TabIndex="4" HorizontalAlignment="Left" Width="162" KeyDown="comboBox2_KeyDown" />
+        <TextBox FontFamily="Tahoma" Margin="141,103,0,0" Name="textBox20" TextAlignment="Left" TextChanged="textBox20_TextChanged" Height="29" VerticalAlignment="Top" HorizontalAlignment="Left" Width="41" TabIndex="1" KeyDown="textBox20_KeyDown" />
+        <Button Content="ثبت" Height="29" HorizontalAlignment="Left" Margin="277,255,0,0" Name="button1" VerticalAlignment="Top" Width="117" Click="button1_Click" TabIndex="8" />
+        <Label Content="لیزینگ طرف قرارداد" FontFamily="Tahoma" FontSize="11" Margin="25,70,0,0" Name="label2" HorizontalAlignment="Left" Width="110" Height="29" VerticalAlignment="Top" Foreground="#FF8142A2" />
+        <ComboBox Margin="141,70,0,0" Name="comboBox3" HorizontalAlignment="Left" Width="209" FontFamily="Tahoma" TabIndex="0" KeyDown="comboBox3_KeyDown" Height="29" VerticalAlignment="Top" />
+        <Label Content="ریال" FontFamily="Tahoma" FontSize="11" Margin="360,173,0,0" Name="label3" HorizontalAlignment="Left" Width="34" Height="29" VerticalAlignment="Top" Foreground="#FF8142A2" />
+        <Button Content="چاپ قرارداد" Height="29" HorizontalAlignment="Left" Margin="25,255,0,0" Name="button3" VerticalAlignment="Top" Width="129" Click="button3_Click" Visibility="Hidden" TabIndex="9" />
+        <Label FontFamily="Tahoma" FontSize="24" Margin="141,12,0,0" Name="label4" Foreground="#FF8142A2" Visibility="Hidden" HorizontalAlignment="Left" Width="209" Height="52" VerticalAlignment="Top" />
+        <Label Content="دفتر خانه" FontFamily="Tahoma" FontSize="11" Margin="25,208,0,0" Name="label5" Height="29" VerticalAlignment="Top" HorizontalAlignment="Left" Width="110" Foreground="#FF8142A2" />
+        <TextBox FontFamily="Tahoma" Margin="141,208,0,0" Name="textBox2" TextAlignment="Left" TextChanged="textBox2_TextChanged" Height="29" VerticalAlignment="Top" HorizontalAlignment="Left" Width="41" TabIndex="6" KeyDown="textBox2_KeyDown" />
+        <ComboBox ItemsSource="{Binding}" Margin="188,208,0,0" Name="comboBox4" DropDownClosed="comboBox4_DropDownClosed" HorizontalAlignment="Left" Width="162" Height="29" VerticalAlignment="Top" FontFamily="Tahoma" TabIndex="7" KeyDown="comboBox4_KeyDown" />
+        <Label Content="ردیف قرارداد" FontFamily="Tahoma" FontSize="18" Margin="25,12,0,0" Name="label6" Foreground="#FF8142A2" Visibility="Hidden" Height="52" VerticalAlignment="Top" HorizontalAlignment="Left" Width="110" />
+    </Grid>
+</Window>

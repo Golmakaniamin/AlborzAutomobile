@@ -1,0 +1,116 @@
+﻿<Window x:Class="AlborzAutomobile.Rusty_01_KhodroFarsode"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="معرفی خودرو فرسوده" Height="559" Width="723" FlowDirection="RightToLeft" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" Background="SkyBlue" Activated="Window_Activated">
+    <Grid>
+        <GroupBox Height="101" HorizontalAlignment="Left" Margin="159,365,0,0" Name="groupBox4" VerticalAlignment="Top" Width="325" Header="مبلغ" Visibility="Hidden">
+            <Grid Height="82">
+                <Label Content="مبلغ قرارداد" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="9,25,0,0" Name="label13" VerticalAlignment="Top" Width="79" Foreground="#FF8142A2" />
+                <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="94,25,0,0" Name="textBox22" TextAlignment="Left" VerticalAlignment="Top" Width="213" Text="0" />
+            </Grid>
+        </GroupBox>
+        <Label Content="شماره موتور" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="12,47,0,0" Name="label1" VerticalAlignment="Top" Width="95" Foreground="#FF8142A2" />
+        <TextBox FontFamily="Tahoma" HorizontalAlignment="Left" Margin="113,47,0,0" Name="textBox1" TextAlignment="Left" Width="120" Height="29" VerticalAlignment="Top" FontSize="11" KeyDown="textBox1_KeyDown" />
+        <Label Content="نوع کاربری" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="239,12,0,0" Name="label2" VerticalAlignment="Top" Width="95" Foreground="#FF8142A2" />
+        <Label Content="تعداد دیفرانسیل" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="466,12,0,0" Name="label3" VerticalAlignment="Top" Width="95" Foreground="#FF8142A2" />
+        <Label Content="سیستم" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label4" VerticalAlignment="Top" Width="95" Foreground="#FF8142A2" />
+        <Label Content="شماره شاسی" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="239,47,0,0" Name="label5" VerticalAlignment="Top" Width="95" Foreground="#FF8142A2" />
+        <TextBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" Margin="340,47,0,0" Name="textBox5" TextAlignment="Left" VerticalAlignment="Top" Width="120" FontSize="11" KeyDown="textBox5_KeyDown" />
+        <Label Content="مدل" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="466,47,0,0" Name="label6" VerticalAlignment="Top" Width="95" Foreground="#FF8142A2" />
+        <Label Content="تعداد سیلندر" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="12,82,0,0" Name="label7" VerticalAlignment="Top" Width="95" Foreground="#FF8142A2" />
+        <Label Content="مبلغ حق العمل کاری" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="442,117,0,0" Name="label8" VerticalAlignment="Top" Width="119" Foreground="#FF8142A2" FontStyle="Normal" FontWeight="SemiBold" />
+        <TextBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" Margin="567,117,0,0" Name="textBox8" TextAlignment="Left" VerticalAlignment="Top" Width="120" FontSize="11" KeyDown="textBox8_KeyDown" />
+        <Label Content="شماره وین" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="466,82,0,0" Name="label9" VerticalAlignment="Top" Width="95" Foreground="#FF8142A2" />
+        <TextBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" Margin="567,82,0,0" Name="textBox9" TextAlignment="Left" VerticalAlignment="Top" Width="120" FontSize="11" KeyDown="textBox9_KeyDown" />
+        <Label Content="رنگ خودرو" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="12,117,0,0" Name="label10" VerticalAlignment="Top" Width="95" Foreground="#FF8142A2" />
+        <TextBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" Margin="113,117,0,0" Name="textBox10" TextAlignment="Left" VerticalAlignment="Top" Width="120" FontSize="11" KeyDown="textBox10_KeyDown" />
+        <GroupBox Header="نوع درخواست" Height="101" HorizontalAlignment="Left" Margin="12,366,0,0" Name="groupBox1" VerticalAlignment="Top" Width="144">
+            <Grid>
+                <RadioButton Content="وجه نقد" Height="18" HorizontalAlignment="Left" Margin="6,51,0,0" Name="radioButton2" VerticalAlignment="Top" Width="73" Checked="radioButton2_Checked" Foreground="#FF8142A2" FontFamily="Tahoma" FontSize="11" />
+                <RadioButton Content="جایگزین" Height="18" HorizontalAlignment="Left" Margin="5,18,0,0" Name="radioButton1" VerticalAlignment="Top" Width="73" Checked="radioButton1_Checked" Foreground="#FF8142A2" FontFamily="Tahoma" FontSize="11" IsChecked="False" Visibility="Visible" />
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="نحوه خرید" Height="101" HorizontalAlignment="Left" Margin="159,365,0,0" Name="groupBox2" VerticalAlignment="Top" Width="185" Visibility="Visible">
+            <Grid>
+                <RadioButton Content="اجاره به شرط تملیک" Height="18" HorizontalAlignment="Left" Margin="5,51,0,0" Name="radioButton3" VerticalAlignment="Top" Width="126" Foreground="#FF8142A2" FontFamily="Tahoma" FontSize="11" />
+                <RadioButton Content="نقد" Height="18" HorizontalAlignment="Left" Margin="6,18,0,0" Name="radioButton4" VerticalAlignment="Top" Width="126" Foreground="#FF8142A2" FontFamily="Tahoma" FontSize="11" IsChecked="True" />
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="خودرو در خواستی" Height="101" HorizontalAlignment="Left" Margin="352,366,0,0" Name="groupBox3" VerticalAlignment="Top" Width="338" Visibility="Visible">
+            <Grid>
+                <Label Content="شرکت سازنده" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="10,10,0,0" Name="label11" VerticalAlignment="Top" Width="79" Foreground="#FF8142A2" />
+                <Label Content="محصول" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="10,45,0,0" Name="label12" VerticalAlignment="Top" Width="79" Foreground="#FF8142A2" />
+                <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="95,45,0,0" Name="textBox21" TextAlignment="Left" VerticalAlignment="Top" Width="41" TextChanged="textBox21_TextChanged" />
+                <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="95,10,0,0" Name="textBox20" TextAlignment="Left" VerticalAlignment="Top" Width="41" TextChanged="textBox20_TextChanged" />
+                <ComboBox Height="29" HorizontalAlignment="Left" ItemsSource="{Binding}" Margin="142,10,0,0" Name="comboBox1" VerticalAlignment="Top" Width="175" DropDownClosed="comboBox1_DropDownClosed" />
+                <ComboBox Height="29" HorizontalAlignment="Left" ItemsSource="{Binding}" Margin="142,45,0,0" Name="comboBox2" VerticalAlignment="Top" Width="175" DropDownClosed="comboBox2_DropDownClosed" />
+            </Grid>
+        </GroupBox>
+        <Button Content="ثبت" Height="35" HorizontalAlignment="Left" Margin="590,473,0,0" Name="button1" VerticalAlignment="Top" Width="97" Click="button1_Click"></Button>
+        <Button Content="خروج" Height="35" HorizontalAlignment="Left" Margin="487,473,0,0" Name="button2" VerticalAlignment="Top" Width="97" Click="button2_Click" />
+        <GroupBox Header="مدارک خودرو" Height="208" HorizontalAlignment="Left" Margin="542,153,0,0" Name="groupBox5" VerticalAlignment="Top" Width="145">
+            <Grid>
+                <CheckBox Content="شناسنامه مالکیت" Height="16" HorizontalAlignment="Left" Margin="6,12,0,0" Name="checkBox1" VerticalAlignment="Top" Width="120" IsChecked="False" Foreground="#FF8142A2" />
+                <CheckBox Content="کارت سوخت" Height="16" HorizontalAlignment="Left" Margin="6,34,0,0" Name="checkBox2" VerticalAlignment="Top" Width="120" Foreground="#FF8142A2" />
+                <CheckBox Content="پلاک مجازی" Height="16" HorizontalAlignment="Left" Margin="6,56,0,0" Name="checkBox3" VerticalAlignment="Top" Width="120" Foreground="#FF8142A2" />
+                <CheckBox Content="کارت خودرو" Height="16" HorizontalAlignment="Left" Margin="6,78,0,0" Name="checkBox4" VerticalAlignment="Top" Width="120" Foreground="#FF8142A2" />
+                <CheckBox Content="بنچاق قطعی" Height="16" HorizontalAlignment="Left" Margin="6,100,0,0" Name="checkBox5" VerticalAlignment="Top" Width="120" Foreground="#FF8142A2" />
+                <CheckBox Content="عدم خلافی" Height="16" HorizontalAlignment="Left" Margin="6,122,0,0" Name="checkBox6" VerticalAlignment="Top" Width="120" Foreground="#FF8142A2" />
+                <CheckBox Content="مالیات" Height="16" HorizontalAlignment="Left" Margin="6,144,0,0" Name="checkBox7" VerticalAlignment="Top" Width="120" Foreground="#FF8142A2" />
+                <CheckBox Content="مفاصا حساب عوارض" Height="16" HorizontalAlignment="Left" Margin="6,166,0,0" Name="checkBox8" VerticalAlignment="Top" Width="120" Foreground="#FF8142A2" />
+            </Grid>
+        </GroupBox>
+        <Button Content="چاپ قرارداد حق العمل کاری" Height="35" HorizontalAlignment="Left" Margin="12,473,0,0" Name="button3" VerticalAlignment="Top" Width="144" Click="button3_Click" Visibility="Hidden" Foreground="White">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Violet" Offset="0" />
+                    <GradientStop Color="DarkViolet" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Label Content="دفتر خانه" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="12,319,0,0" Name="label14" VerticalAlignment="Top" Width="95" />
+        <TextBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" Margin="116,319,0,0" Name="textBox23" TabIndex="6" TextAlignment="Left" VerticalAlignment="Top" Width="41" TextChanged="textBox23_TextChanged" KeyDown="textBox23_KeyDown" />
+        <ComboBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" ItemsSource="{Binding}" Margin="163,319,0,0" Name="comboBox4" TabIndex="7" VerticalAlignment="Top" Width="367" DropDownClosed="comboBox4_DropDownClosed" />
+        <GroupBox Header="شماره انتظامی" Height="151" HorizontalAlignment="Left" Margin="12,154,0,0" Name="groupBox6" VerticalAlignment="Top" Width="524">
+            <Grid>
+                <Expander Header="قدیمی" Name="expander3" Width="144" Margin="6,6,0,0" HorizontalAlignment="Left" Height="106" VerticalAlignment="Top" Background="SkyBlue" ExpandDirection="Down" IsExpanded="False" Foreground="#FF8142A2">
+                    <Grid>
+                        <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="6,6,0,0" Name="textBox18" TextAlignment="Left" VerticalAlignment="Top" Width="130" KeyDown="textBox18_KeyDown" Text="-" />
+                        <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="5,43,0,0" Name="textBox19" TextAlignment="Left" VerticalAlignment="Top" Width="130" KeyDown="textBox19_KeyDown" Text="-" />
+                    </Grid>
+                </Expander>
+                <Expander Header="عددی یا حروف" Height="106" Name="expander2" Width="143" Margin="154,7,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Background="SkyBlue" Foreground="#FF8142A2">
+                    <Grid>
+                        <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="6,6,0,0" Name="textBox15" TextAlignment="Left" VerticalAlignment="Top" Width="124" KeyDown="textBox15_KeyDown" Text="-" />
+                        <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="6,42,0,0" Name="textBox16" TextAlignment="Left" VerticalAlignment="Top" Width="50" KeyDown="textBox16_KeyDown" Text="-" />
+                        <TextBox FontFamily="B Titr" Height="29" Margin="61,42,0,0" Name="textBox17" TextAlignment="Left" VerticalAlignment="Top" HorizontalAlignment="Left" Width="69" KeyDown="textBox17_KeyDown" Text="-" />
+                    </Grid>
+                </Expander>
+                <Expander Height="69" Name="expander1" Header="ملی" Margin="299,8,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="219" Background="SkyBlue" Foreground="#FF8142A2">
+                    <Grid>
+                        <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="174,6,0,0" Name="textBox11" TextAlignment="Left" VerticalAlignment="Top" Width="37" KeyDown="textBox11_KeyDown" Text="-" />
+                        <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="130,6,0,0" Name="textBox12" TextAlignment="Left" VerticalAlignment="Top" Width="38" KeyDown="textBox12_KeyDown" Text="-" />
+                        <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="79,6,0,0" Name="textBox13" TextAlignment="Left" VerticalAlignment="Top" Width="45" KeyDown="textBox13_KeyDown" Text="-" />
+                        <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="6,6,0,0" Name="textBox14" TextAlignment="Left" VerticalAlignment="Top" Width="67" KeyDown="textBox14_KeyDown" Text="-" />
+                    </Grid>
+                </Expander>
+            </Grid>
+        </GroupBox>
+        <Label FontFamily="Tahoma" FontSize="24" Foreground="#FF8142A2" Height="39" HorizontalAlignment="Left" Margin="340,82,0,0" Name="label15" VerticalAlignment="Top" Visibility="Hidden" Width="120" />
+        <Label Content="ردیف قرارداد" FontFamily="Tahoma" FontSize="16" Foreground="Purple" Height="39" HorizontalAlignment="Left" Margin="239,82,0,0" Name="label16" VerticalAlignment="Top" Visibility="Hidden" Width="95" />
+        <ComboBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" ItemsSource="{Binding}" Margin="340,12,0,0" Name="comboBox3" TabIndex="7" VerticalAlignment="Top" Width="120" KeyDown="comboBox3_KeyDown" />
+        <ComboBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" ItemsSource="{Binding}" Margin="113,12,0,0" Name="comboBox5" TabIndex="7" VerticalAlignment="Top" Width="120" KeyDown="comboBox5_KeyDown" />
+        <ComboBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" ItemsSource="{Binding}" Margin="567,47,0,0" Name="comboBox6" TabIndex="7" VerticalAlignment="Top" Width="120" KeyDown="comboBox6_KeyDown" />
+        <Button Content="چاپ اقرار نامه" Height="35" HorizontalAlignment="Left" Margin="159,473,0,0" Name="button4" VerticalAlignment="Top" Visibility="Hidden" Width="185" Click="button4_Click" AllowDrop="False">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Gold" Offset="0" />
+                    <GradientStop Color="DarkGoldenrod" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <ComboBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" ItemsSource="{Binding}" Margin="567,12,0,0" Name="comboBox7" TabIndex="7" VerticalAlignment="Top" Width="120" KeyDown="comboBox7_KeyDown" KeyUp="comboBox7_KeyDown" />
+        <ComboBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" ItemsSource="{Binding}" Margin="113,82,0,0" Name="comboBox8" TabIndex="7" VerticalAlignment="Top" Width="120" KeyDown="comboBox8_KeyDown" />
+        <Button Content="چاپ برچسب پوشه" Height="35" HorizontalAlignment="Left" Margin="350,473,0,0" Name="button5" VerticalAlignment="Top" Width="110" Click="button5_Click" />
+    </Grid>
+</Window>

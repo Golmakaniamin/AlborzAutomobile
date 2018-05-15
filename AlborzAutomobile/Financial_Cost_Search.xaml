@@ -1,0 +1,34 @@
+﻿<Window x:Class="AlborzAutomobile.Financial_Cost_Search"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Financial_Cost_Search" Height="334" Width="531" WindowStartupLocation="CenterScreen" FlowDirection="RightToLeft" Background="SkyBlue" xmlns:my="clr-namespace:Arash.PersianDateControls;assembly=PersianDateControls" Loaded="Window_Loaded">
+    <Grid>
+        <Label Content="در وجه" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="271,12,0,0" Name="label1" VerticalAlignment="Top" Width="100" />
+        <TextBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" Margin="377,12,0,0" Name="textBox1" TextAlignment="Left" VerticalAlignment="Top" Width="120" />
+        <Label Content="بانک" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label2" VerticalAlignment="Top" Width="100" />
+        <ComboBox Height="29" HorizontalAlignment="Left" Margin="145,12,0,0" Name="comboBox1" VerticalAlignment="Top" Width="120" />
+        <my:PersianDatePicker Height="29" HorizontalAlignment="Left" Margin="377,152,0,0" Name="persianDatePicker2" VerticalAlignment="Top" Width="120" Text="" />
+        <Label Content="تاریخ سر رسید چک" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="12,187,0,0" Name="label6" VerticalAlignment="Top" Width="100" />
+        <Label Content="بابت" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="271,47,0,0" Name="label3" VerticalAlignment="Top" Width="100" />
+        <ComboBox Height="29" HorizontalAlignment="Left" Margin="145,82,0,0" Name="comboBox2" VerticalAlignment="Top" Width="120" />
+        <Label Content="شماره سریال چک" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="12,47,0,0" Name="label4" VerticalAlignment="Top" Width="100" />
+        <TextBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" Margin="145,47,0,0" Name="textBox2" TextAlignment="Left" VerticalAlignment="Top" Width="120" />
+        <TextBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" Margin="377,47,0,0" Name="textBox3" TextAlignment="Left" VerticalAlignment="Top" Width="120" />
+        <Label Content="موضوع" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="12,82,0,0" Name="label5" VerticalAlignment="Top" Width="100" />
+        <Label Content="توضیحات" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="12,222,0,0" Name="label7" VerticalAlignment="Top" Width="127" />
+        <TextBox FontFamily="Tahoma" Height="29" Margin="145,222,12,0" Name="textBox4" TextAlignment="Left" VerticalAlignment="Top" />
+        <my:PersianDatePicker Height="29" HorizontalAlignment="Left" Margin="145,152,0,0" Name="persianDatePicker1" VerticalAlignment="Top" Width="120" Text="" />
+        <Label Content="تاریخ صدور چک" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="12,152,0,0" Name="label8" VerticalAlignment="Top" Width="100" />
+        <Label Content="مبلغ" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="271,82,0,0" Name="label9" VerticalAlignment="Top" Width="100" />
+        <TextBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" Margin="377,82,0,0" Name="textBox5" TextAlignment="Left" VerticalAlignment="Top" Width="120" />
+        <Label Content="دریافت کننده چک" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="12,117,0,0" Name="label10" VerticalAlignment="Top" Width="100" />
+        <TextBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" Margin="145,117,0,0" Name="textBox6" TextAlignment="Left" VerticalAlignment="Top" Width="120" />
+        <Button Content="جستجو" Height="30" HorizontalAlignment="Left" Margin="12,257,0,0" Name="button3" VerticalAlignment="Top" Width="485" Click="button3_Click" />
+        <my:PersianDatePicker Height="29" HorizontalAlignment="Left" Margin="377,187,0,0" Name="persianDatePicker3" VerticalAlignment="Top" Width="120" Text="" />
+        <my:PersianDatePicker Height="29" HorizontalAlignment="Left" Margin="145,187,0,0" Name="persianDatePicker4" VerticalAlignment="Top" Width="120" Text="" />
+        <Label Content="از" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="118,152,0,0" Name="label11" VerticalAlignment="Top" Width="21" />
+        <Label Content="از" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="118,187,0,0" Name="label12" VerticalAlignment="Top" Width="21" />
+        <Label Content="تا" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="271,152,0,0" Name="label13" VerticalAlignment="Top" Width="100" />
+        <Label Content="تا" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="271,190,0,0" Name="label14" VerticalAlignment="Top" Width="100" />
+    </Grid>
+</Window>

@@ -1,0 +1,22 @@
+﻿<Window x:Class="AlborzAutomobile.Rusty_05_sabtdarsetad13"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Rusty_05_sabtdarsetad13" Height="260" Width="729" FlowDirection="RightToLeft" xmlns:my="clr-namespace:Arash.PersianDateControls;assembly=PersianDateControls" Loaded="Window_Loaded" Background="SkyBlue" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <DataGrid AutoGenerateColumns="False" FlowDirection="RightToLeft" HorizontalAlignment="Left" ItemsSource="{Binding Path=parking}" Margin="12,12,0,0" Name="dataGrid1" Width="681" Height="121" VerticalAlignment="Top" SelectedCellsChanged="dataGrid1_SelectedCellsChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=rad}" Header="کد مرکز" IsReadOnly="True" Width="80" />
+                <DataGridTextColumn Binding="{Binding Path=namemarkaz}" Header="نام مرکز" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=adress}" Header="نشانی مرکز" IsReadOnly="True" Width="400" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <my:PersianDatePicker Height="29" HorizontalAlignment="Left" Margin="127,143,0,0" Name="persianDatePicker1" VerticalAlignment="Top" Width="120" FontFamily="Tahoma" KeyDown="persianDatePicker1_KeyDown" />
+        <TextBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" Margin="350,143,0,0" Name="textBox1" TextAlignment="Left" VerticalAlignment="Top" Width="120" KeyDown="textBox1_KeyDown" />
+        <Label Content="کد مرکز اسقاط" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="253,143,0,0" Name="label2" VerticalAlignment="Top" Width="91" Foreground="#FF8142A2" />
+        <Label Content="تاریخ ثبت نام" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="30,143,0,0" Name="label3" VerticalAlignment="Top" Width="91" Foreground="#FF8142A2" />
+        <Button Content="ثبت" Height="29" HorizontalAlignment="Left" Margin="598,180,0,0" Name="button1" VerticalAlignment="Top" Width="97" Click="button1_Click" />
+        <Button Content="خروج" Height="29" HorizontalAlignment="Left" Margin="495,180,0,0" Name="button2" VerticalAlignment="Top" Width="97" Click="button2_Click" />
+        <TextBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" Margin="573,143,0,0" Name="textBox2" TextAlignment="Left" VerticalAlignment="Top" Width="120" KeyDown="textBox2_KeyDown" />
+        <Label Content="کد رهگیری" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="476,143,0,0" Name="label1" VerticalAlignment="Top" Width="91" Foreground="#FF8142A2" />
+    </Grid>
+</Window>

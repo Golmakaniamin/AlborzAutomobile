@@ -1,0 +1,59 @@
+﻿<Window x:Class="AlborzAutomobile.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="" Height="350" Width="525" FlowDirection="RightToLeft" Unloaded="Window_Unloaded" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow" WindowState="Maximized" Background="SkyBlue" Icon="/AlborzAutomobile;component/Project1.ico">
+    <Grid>
+        <Menu Name="menu1" Height="23" VerticalAlignment="Top">
+            <Menu.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0" />
+                    <GradientStop Color="DimGray" Offset="1" />
+                </LinearGradientBrush>
+            </Menu.Background>
+            <MenuItem Header="عملیات" Name="mnu1" Click="mnu1_Click">
+                <MenuItem Header="ایجاد مشتری" Name="mnu2" Click="mnu2_Click"/>
+                <Separator />
+                <MenuItem Header="خرید و فروش نقدی" Name="mnu18" Click="mnu18_Click"/>
+                <MenuItem Header="فروش نقد و اقساط" Name="mnu22" Click="mnu22_Click"/>
+                <MenuItem Header="اجاره به شرط تملیک" Name="mnu4" Click="mnu4_Click"/>
+                <MenuItem Header="فرسوده" Name="mnu3" Click="mnu3_Click"/>
+                <MenuItem Header="خرید حواله" />
+                <MenuItem Header="فروش حواله" />
+            </MenuItem>
+            <MenuItem Header="گزارشات" Click="MenuItem_Click">
+                <MenuItem Header="فرسوده">
+                    <MenuItem Header="روند پیشرفت" Name="mnu6" Click="mnu6_Click"/>
+                    <MenuItem Header="تفکیک مراحل">
+                        <MenuItem Header="مشخصات وکالت نامه" Name="mnu12" Click="mnu12_Click"/>
+                        <MenuItem Header="ثبت واریزی" Name="mnu16" Click="mnu16_Click"/>
+                        <MenuItem Header="نوع تسهیلات" Name="mnu13" Click="mnu13_Click"/>
+                        <MenuItem Header="ثبت نام در ستاد تبصره 13" Name="mnu14" Click="mnu14_Click"/>
+                        <MenuItem Header="فراخوان مرکز اسقاط" Name="mnu15" Click="mnu15_Click"/>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="اجاره به شرط تملیک" />
+                <MenuItem Header="لیست تعهدات" Name="mnu10" Click="mnu10_Click"/>
+                <MenuItem Header="جستجوی خودرو فرسوده" Name="mnu23" Click="mnu23_Click"/>
+                <MenuItem Header="گزارش ایجاد مشتریان" Name="mnu11" Click="mnu11_Click"/>
+            </MenuItem>
+            <MenuItem Header="مکاتبات">
+                <MenuItem Header="ایجاد و ارسال نامه" />
+                <MenuItem Header="دریافت و مشاهده نامه" />
+            </MenuItem>
+            <MenuItem Header="بخشنامه" />
+            <MenuItem Header="مالی" Name="mnu17" Click="mnu17_Click"/>
+            <MenuItem Header="تنظیمات">
+                <MenuItem Header="تغییر رمز عبور" Name="mnu19" Click="mnu19_Click"/>
+                <MenuItem Header="کاربران" Name="mnu7" Click="mnu7_Click"/>
+                <MenuItem Header="لیست خودرو" Name="mnu8" Click="mnu8_Click"/>
+                <MenuItem Header="لیست دفتر خانه" Name="mnu20" Click="mnu20_Click"/>
+                <MenuItem Header="لیست مرکز اسقاط" Name="mnu21" Click="mnu21_Click"/>
+            </MenuItem>
+            <MenuItem Header="درباره ما"/>
+            <MenuItem Header="خروج" Name="mnu9" Click="mnu9_Click"/>
+        </Menu>
+        <ListBox Margin="0,0,12,12" Name="listBox1" HorizontalAlignment="Right" Width="202" Height="100" VerticalAlignment="Bottom" FlowDirection="LeftToRight" />
+        <Label Content="BackUp" Margin="0,0,12,110" Name="label1" HorizontalAlignment="Right" Width="202" Height="25" VerticalAlignment="Bottom" FlowDirection="LeftToRight" />
+        <Label Content="Alborz Automobile.Co" Height="55" Margin="12,89,12,0" Name="label3" VerticalAlignment="Top" HorizontalContentAlignment="Center" Opacity="1" VerticalContentAlignment="Center" FontSize="32" />
+    </Grid>
+</Window>

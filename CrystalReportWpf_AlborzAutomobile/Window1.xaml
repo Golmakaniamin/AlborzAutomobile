@@ -1,0 +1,10 @@
+﻿<Window x:Class="CrystalReportWpf_AlborzAutomobile.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:cr="clr-namespace:SAPBusinessObjects.WPF.Viewer;assembly=SAPBusinessObjects.WPF.Viewer"
+        Title="WPF Crystal Report Viewer" Height="600" Width="800" Loaded="Window_Loaded" FlowDirection="RightToLeft" WindowState="Maximized">
+    <Grid>
+        <cr:CrystalReportsViewer Name="crystalReportsViewer1" FlowDirection="LeftToRight" VerticalContentAlignment="Stretch" ShowToolbar="True" ShowToggleSidePanelButton="False" ShowStatusbar="True" ShowSearchTextButton="True" ShowRefreshButton="False" ShowPrintButton="True" ShowPrevPageButton="True" ShowOpenFileButton="False" ShowNextPageButton="True" ShowLogo="False" ShowGoToPageButton="True" ShowExportButton="True" ShowCopyButton="False" EnableToolTips="False" IsHitTestVisible="True" IsEnabled="True" IsManipulationEnabled="False" ClipToBounds="True" OverridesDefaultStyle="False" UseLayoutRounding="False">
+        </cr:CrystalReportsViewer>
+    </Grid>
+</Window>

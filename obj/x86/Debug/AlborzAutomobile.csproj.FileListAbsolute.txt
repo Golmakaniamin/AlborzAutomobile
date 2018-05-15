@@ -1,0 +1,13 @@
+D:\PraticGroup\AlborzAutomobile\AlborzAutomobile\bin\Debug\AlborzAutomobile.exe
+D:\PraticGroup\AlborzAutomobile\AlborzAutomobile\bin\Debug\AlborzAutomobile.pdb
+D:\PraticGroup\AlborzAutomobile\AlborzAutomobile\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\PraticGroup\AlborzAutomobile\AlborzAutomobile\obj\x86\Debug\MainWindow.baml
+D:\PraticGroup\AlborzAutomobile\AlborzAutomobile\obj\x86\Debug\MainWindow.g.cs
+D:\PraticGroup\AlborzAutomobile\AlborzAutomobile\obj\x86\Debug\App.g.cs
+D:\PraticGroup\AlborzAutomobile\AlborzAutomobile\obj\x86\Debug\AlborzAutomobile_MarkupCompile.cache
+D:\PraticGroup\AlborzAutomobile\AlborzAutomobile\obj\x86\Debug\AlborzAutomobile.g.resources
+D:\PraticGroup\AlborzAutomobile\AlborzAutomobile\obj\x86\Debug\AlborzAutomobile.Properties.Resources.resources
+D:\PraticGroup\AlborzAutomobile\AlborzAutomobile\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\PraticGroup\AlborzAutomobile\AlborzAutomobile\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\PraticGroup\AlborzAutomobile\AlborzAutomobile\obj\x86\Debug\AlborzAutomobile.exe
+D:\PraticGroup\AlborzAutomobile\AlborzAutomobile\obj\x86\Debug\AlborzAutomobile.pdb

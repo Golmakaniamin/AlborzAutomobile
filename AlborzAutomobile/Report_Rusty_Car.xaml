@@ -1,0 +1,91 @@
+﻿<Window x:Class="AlborzAutomobile.Report_Rusty_Car"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Report_Rusty_Car" Height="600" Width="718" FlowDirection="RightToLeft" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Background="SkyBlue">
+    <Grid>
+        <Label Content="شماره موتور" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="464,45,0,0" Name="label1" VerticalAlignment="Top" Width="95" />
+        <TextBox FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="565,45,0,0" Name="textBox1" TextAlignment="Left" VerticalAlignment="Top" Width="120" />
+        <Label Content="نوع کاربری" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="237,10,0,0" Name="label2" VerticalAlignment="Top" Width="95" />
+        <Label Content="تعداد دیفرانسیل" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="464,10,0,0" Name="label3" VerticalAlignment="Top" Width="95" />
+        <Label Content="سیستم" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="10,10,0,0" Name="label4" VerticalAlignment="Top" Width="95" />
+        <Label Content="شماره شاسی" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="10,80,0,0" Name="label5" VerticalAlignment="Top" Width="95" />
+        <TextBox FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="111,80,0,0" Name="textBox5" TextAlignment="Left" VerticalAlignment="Top" Width="120" />
+        <Label Content="مدل" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="237,45,0,0" Name="label6" VerticalAlignment="Top" Width="95" />
+        <Label Content="تعداد سیلندر" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="10,45,0,0" Name="label7" VerticalAlignment="Top" Width="95" />
+        <Label Content="شماره وین" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="464,80,0,0" Name="label9" VerticalAlignment="Top" Width="95" />
+        <TextBox FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="565,80,0,0" Name="textBox9" TextAlignment="Left" VerticalAlignment="Top" Width="120" />
+        <Label Content="رنگ خودرو" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="237,80,0,0" Name="label10" VerticalAlignment="Top" Width="95" />
+        <TextBox FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="338,80,0,0" Name="textBox10" TextAlignment="Left" VerticalAlignment="Top" Width="120" />
+        <GroupBox Header="شماره انتظامی" Height="151" HorizontalAlignment="Left" Margin="10,115,0,0" Name="groupBox6" VerticalAlignment="Top" Width="549">
+            <Grid>
+                <Expander Background="SkyBlue" ExpandDirection="Down" Foreground="#FF8142A2" Header="قدیمی" Height="106" HorizontalAlignment="Left" IsExpanded="False" Margin="6,6,0,0" Name="expander3" VerticalAlignment="Top" Width="144">
+                    <Grid>
+                        <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="6,6,0,0" Name="textBox18" Text="-" TextAlignment="Left" VerticalAlignment="Top" Width="130" />
+                        <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="5,43,0,0" Name="textBox19" Text="-" TextAlignment="Left" VerticalAlignment="Top" Width="130" />
+                    </Grid>
+                </Expander>
+                <Expander Background="SkyBlue" Foreground="#FF8142A2" Header="عددی یا حروف" Height="106" HorizontalAlignment="Left" Margin="154,7,0,0" Name="expander2" VerticalAlignment="Top" Width="143">
+                    <Grid>
+                        <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="6,6,0,0" Name="textBox15" Text="-" TextAlignment="Left" VerticalAlignment="Top" Width="124" />
+                        <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="6,42,0,0" Name="textBox16" Text="-" TextAlignment="Left" VerticalAlignment="Top" Width="50" />
+                        <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="61,42,0,0" Name="textBox17" Text="-" TextAlignment="Left" VerticalAlignment="Top" Width="69" />
+                    </Grid>
+                </Expander>
+                <Expander Background="SkyBlue" Foreground="#FF8142A2" Header="ملی" Height="69" HorizontalAlignment="Left" Margin="299,8,0,0" Name="expander1" VerticalAlignment="Top" Width="219">
+                    <Grid>
+                        <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="174,6,0,0" Name="textBox11" Text="-" TextAlignment="Left" VerticalAlignment="Top" Width="37" />
+                        <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="130,6,0,0" Name="textBox12" Text="-" TextAlignment="Left" VerticalAlignment="Top" Width="38" />
+                        <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="79,6,0,0" Name="textBox13" Text="-" TextAlignment="Left" VerticalAlignment="Top" Width="45" />
+                        <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="6,6,0,0" Name="textBox14" Text="-" TextAlignment="Left" VerticalAlignment="Top" Width="67" />
+                    </Grid>
+                </Expander>
+            </Grid>
+        </GroupBox>
+        <ComboBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" ItemsSource="{Binding}" Margin="338,10,0,0" Name="comboBox3" TabIndex="7" VerticalAlignment="Top" Width="120" />
+        <ComboBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" ItemsSource="{Binding}" Margin="111,10,0,0" Name="comboBox5" TabIndex="7" VerticalAlignment="Top" Width="120" />
+        <ComboBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" ItemsSource="{Binding}" Margin="338,45,0,0" Name="comboBox6" TabIndex="7" VerticalAlignment="Top" Width="120" />
+        <ComboBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" ItemsSource="{Binding}" Margin="565,10,0,0" Name="comboBox7" TabIndex="7" VerticalAlignment="Top" Width="120" />
+        <ComboBox FontFamily="Tahoma" Height="29" HorizontalAlignment="Left" ItemsSource="{Binding}" Margin="111,45,0,0" Name="comboBox8" TabIndex="7" VerticalAlignment="Top" Width="120" />
+        <Button AllowDrop="False" Content="جستجو" Height="35" HorizontalAlignment="Left" Margin="565,231,0,0" Name="button4" VerticalAlignment="Top" Visibility="Visible" Width="120" Click="button4_Click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Gold" Offset="0" />
+                    <GradientStop Color="DarkGoldenrod" Offset="1" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <DataGrid AutoGenerateColumns="False" FlowDirection="RightToLeft" ItemsSource="{Binding Path=infokhodro}" Margin="12,272,12,12" Name="dataGrid1">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path=idshobe}" Header="کد شعبه" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=idkhodro}" Header="کد ملی" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=S1_rad}" Header="ردیف قرارداد" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=shmotor}" Header="شماره موتور" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=nokarbari}" Header="نوع کاربری" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=numberdeff}" Header="تعداد دیفرانسیل" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=nokhodro}" Header="سیستم" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=shshasi}" Header="وضعیت" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=model}" Header="مدل" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=numbersilandr}" Header="تعداد سیلندر" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=idvin}" Header="شماره وین" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=shsokhtcard}" Header="رنگ خودرو" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=p1_1}" Header="ملی" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=p1_2}" Header="ملی" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=p1_3}" Header="ملی" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=p1_4}" Header="ملی" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=p2_1}" Header="عددی یا حروف" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=p2_2}" Header="عددی یا حروف" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=p2_3}" Header="عددی یا حروف" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=p3_1}" Header="قدیمی" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=p3_2}" Header="قدیمی" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=shshahr}" Header="شماره شهربانی" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=uuser}" Header="نام کاربر" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=udate}" Header="تاریخ ثبت" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=utime}" Header="زمان ثبت" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=nahkharid}" Header="نوع درخواست" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=khdarkhast}" Header="-" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=nodarkhast}" Header="-" IsReadOnly="True" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path=markazdate}" Header="-" IsReadOnly="True" Width="100" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

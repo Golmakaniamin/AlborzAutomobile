@@ -1,0 +1,22 @@
+﻿<Window x:Class="AlborzAutomobile.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="768" Width="1024" Background="#FFBA5978">
+    <Grid>
+        <Button Height="23" HorizontalAlignment="Left" Margin="12,0,0,204" Name="button1" VerticalAlignment="Bottom" Width="75" Content="ثبت" Click="button1_Click" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="783,50,0,0" Name="textBox1" VerticalAlignment="Top" Width="120" />
+        <Label Content="نام" Height="23" HorizontalAlignment="Left" Margin="909,50,0,0" Name="label1" VerticalAlignment="Top" Width="81" OpacityMask="#FFF80000" VerticalContentAlignment="Center">
+            <Label.Background>
+                <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                    <GradientStop Color="Lime" Offset="0" />
+                    <GradientStop Color="#FFCCFFF7" Offset="1" />
+                </LinearGradientBrush>
+            </Label.Background>
+        </Label>
+        <DataGrid AutoGenerateColumns="False" Height="170" HorizontalAlignment="Left" Margin="12,547,0,0" Name="dataGrid1" VerticalAlignment="Top" Width="978" />
+        <TreeView Height="200" HorizontalAlignment="Left" Margin="132,20,0,0" Name="treeView1" VerticalAlignment="Top" Width="313" ItemsSource="{Binding}">
+            <TreeViewItem />
+            <TreeViewItem />
+        </TreeView>
+    </Grid>
+</Window>

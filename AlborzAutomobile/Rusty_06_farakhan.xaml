@@ -1,0 +1,13 @@
+﻿<Window x:Class="AlborzAutomobile.Rusty_06_farakhan"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Rusty_06_farakhan" Height="212" Width="300" FlowDirection="RightToLeft" Loaded="Window_Loaded" xmlns:my="clr-namespace:Arash.PersianDateControls;assembly=PersianDateControls" Background="SkyBlue" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <my:PersianDatePicker Height="29" HorizontalAlignment="Left" Margin="147,9,0,0" Name="persianDatePicker1" VerticalAlignment="Top" Width="120" />
+        <Label Content="تاریخ فراخوان" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label3" VerticalAlignment="Top" Width="129" Foreground="#FF8142A2" />
+        <Button Content="ثبت" Height="29" HorizontalAlignment="Left" Margin="170,132,0,0" Name="button1" VerticalAlignment="Top" Width="97" Click="button1_Click" />
+        <Button Content="خروج" Height="29" HorizontalAlignment="Left" Margin="12,132,0,0" Name="button2" VerticalAlignment="Top" Width="97" Click="button2_Click" />
+        <TextBox FontFamily="B Titr" Height="29" HorizontalAlignment="Left" Margin="147,46,0,0" Name="textBox1" TextAlignment="Left" VerticalAlignment="Top" Width="120" />
+        <Label Content="کد مرکز اسقاط" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="12,47,0,0" Name="label2" VerticalAlignment="Top" Width="129" Foreground="#FF8142A2" />
+    </Grid>
+</Window>

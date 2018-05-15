@@ -1,0 +1,11 @@
+﻿<Window x:Class="AlborzAutomobile.Rusty_13_tahvihkhodro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Rusty_13_tahvihkhodro" Height="152" Width="333" FlowDirection="RightToLeft" WindowStartupLocation="CenterScreen" Background="SkyBlue" xmlns:my="clr-namespace:Arash.PersianDateControls;assembly=PersianDateControls" Loaded="Window_Loaded">
+    <Grid>
+        <my:PersianDatePicker FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="95,10,0,0" Name="persianDatePicker1" VerticalAlignment="Top" Width="120" />
+        <Label Content="تاریخ صدور" FontFamily="Tahoma" FontSize="11" Foreground="#FF8142A2" Height="29" HorizontalAlignment="Left" Margin="10,10,0,0" Name="label3" VerticalAlignment="Top" Width="79" />
+        <Button Content="ثبت" Height="30" HorizontalAlignment="Left" Margin="150,55,0,0" Name="button1" VerticalAlignment="Top" Width="146" Click="button1_Click" />
+        <Button Content="خروج" Height="30" HorizontalAlignment="Left" Margin="10,55,0,0" Name="button2" VerticalAlignment="Top" Width="60" Click="button2_Click" />
+    </Grid>
+</Window>

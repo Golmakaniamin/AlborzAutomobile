@@ -1,0 +1,13 @@
+﻿<Window x:Class="AlborzAutomobile.Rusty_09_tashkilparvande"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Rusty_09_tashkilparvande" Height="200" Width="300" FlowDirection="RightToLeft" xmlns:my="clr-namespace:Arash.PersianDateControls;assembly=PersianDateControls" Loaded="Window_Loaded" Background="SkyBlue" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <my:PersianDatePicker Height="29" HorizontalAlignment="Left" Margin="146,12,0,0" Name="persianDatePicker1" VerticalAlignment="Top" Width="120" />
+        <Label Content="تاریخ اعلام به مشتری" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label3" VerticalAlignment="Top" Width="128" Foreground="#FF8142A2" />
+        <Button Content="ثبت" Height="29" HorizontalAlignment="Left" Margin="169,120,0,0" Name="button1" VerticalAlignment="Top" Width="97" Click="button1_Click" />
+        <Button Content="خروج" Height="29" HorizontalAlignment="Left" Margin="12,120,0,0" Name="button2" VerticalAlignment="Top" Width="97" Click="button2_Click" />
+        <my:PersianDatePicker Height="29" HorizontalAlignment="Left" Margin="146,47,0,0" Name="persianDatePicker2" VerticalAlignment="Top" Width="120" />
+        <Label Content="تاریخ تکمیل پرونده لیزینگ" FontFamily="Tahoma" FontSize="11" Height="29" HorizontalAlignment="Left" Margin="12,47,0,0" Name="label1" VerticalAlignment="Top" Width="128" Foreground="#FF8142A2" />
+    </Grid>
+</Window>
